@@ -1,3 +1,11 @@
+//hiding title
+.archive, .category{
+  .page-title{
+    display: none;
+  }
+}
+
+
 .solution-title{
   margin: 0 10px;
   padding-top: 30px;
@@ -52,14 +60,14 @@
   }
 }
 
-@media screen and(min-width:600px){
+@media screen and(min-width:670px){
   .solution{
     // padding-top: 50px;
     flex-direction: row;
   }
   .solution-container{
     max-width: 300px;
-    min-width: 150px;
+    min-width: 170px;
 
     height: 450px;
   }
