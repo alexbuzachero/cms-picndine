@@ -5,7 +5,11 @@
   }
 }
 
+<<<<<<< HEAD
 //Solution Title Poition
+=======
+
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 .solution-title{
   margin: 0 10px;
   margin-bottom: 17px;
@@ -57,8 +61,12 @@
   }
 }
 
+<<<<<<< HEAD
 //Flex Browser Support
 @supports (display:flex){
+=======
+@media screen and(min-width:670px){
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   .solution{
     display: flex;
 
@@ -77,6 +85,7 @@
       flex-grow: 1;
     }
   }
+<<<<<<< HEAD
 }
 
 @media screen and(min-width:500px) {
@@ -94,6 +103,11 @@
 
   //Solution Cards Wrapper Frame
   .solution{
+=======
+  .solution-container{
+    max-width: 300px;
+    min-width: 170px;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
     //Solution Cards
     .solution-container{

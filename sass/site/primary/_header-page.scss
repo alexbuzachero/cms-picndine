@@ -1,4 +1,5 @@
 /*Header post title*/
+<<<<<<< HEAD
 .site-branding p{
   margin-top: -20px;
   margin-bottom: 16px;
@@ -7,6 +8,18 @@
 }
 
 //Background Header Image
+=======
+
+.site-branding p{
+  margin-top: -20px;
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+}
+
+//background food effect{
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 .food-background{
   display: block;
   margin: 0;
@@ -15,13 +28,23 @@
 
   .header-image{
     object-fit: cover;
+<<<<<<< HEAD
+=======
+    // width: 100%;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
     height: auto;
 
     min-height: 600px;
   }
+<<<<<<< HEAD
 }
 
 //Background Camera Image
+=======
+
+
+}
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 .phone-camera{
   position: absolute;
 
@@ -31,6 +54,7 @@
   bottom: 0;
   margin-right: 0;
 
+<<<<<<< HEAD
   //Positioning Camera
   img{
     float: right;
@@ -40,12 +64,28 @@
   }
 
   //Camera Zoom Animation
+=======
+
+
+  img{
+    float: right;
+
+    margin-bottom: 0px;
+    max-width: 450px;
+    height: auto;
+
+    filter: opacity(80%);
+
+  }
+
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   animation-name: zoom;
   animation-duration: 2s;
   animation-direction: normal;
   animation-fill-mode: forwards;
 }
 
+<<<<<<< HEAD
 //Adding camera opacity when picture reaches text area
 @supports(filter:opacity(70%)){
   .phone-camera{
@@ -59,12 +99,19 @@
 .food-title{
   position: relative;
   margin-top: -595px;
+=======
+//Food text
+.food-title{
+  position: relative;
+  margin-top: -570px;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 64px;
   z-index: 0;
   text-align: center;
   width: 300px;
+<<<<<<< HEAD
 
   //Header Text
   h2{
@@ -78,18 +125,36 @@
   p{
     margin: 0;
     font-size: 2em;
+=======
+  h2{
+    margin: 0;
+    color: $food-title !important;
+    font-size: 3rem;
+    @include shadow(white);
+  }
+  p{
+    margin: 0;
+    font-size: 2rem;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
     color: white;
     @include shadow(black);
   }
   p:nth-of-type(2){
     text-align: center;
   }
+<<<<<<< HEAD
   //Google Play Icon
+=======
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   img{
     width: 130px;
     text-align: center;
 
     margin-top: 20px;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
     transition: .5s;
 
     &:hover{
@@ -97,7 +162,10 @@
     }
   }
 
+<<<<<<< HEAD
   //Opacity Animation config
+=======
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   animation-name: opacity;
   animation-duration: 2s;
   animation-direction: normal;
@@ -129,6 +197,7 @@
   }
 }
 
+<<<<<<< HEAD
 @media screen and(min-width:500px){
   .food-title{
     h2{
@@ -138,24 +207,55 @@
     }
     p{
       font-size: 2em;
+=======
+
+@media screen and(min-width:500px){
+  .food-title{
+    h2{
+      font-size: 3rem;
+    }
+    p{
+      font-size: 2rem;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
       color: white;
       @include shadow(black);
+    }
+  }
+<<<<<<< HEAD
+}
+
+@media screen and(min-width: 600px){
+  //Repositioning Header area text
+=======
+
+  .phone-camera{
+    img{
+      filter: opacity(100%);
     }
   }
 }
 
 @media screen and(min-width: 600px){
-  //Repositioning Header area text
+
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   .content-area{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
+<<<<<<< HEAD
 
   .site-branding p{
     margin-top: 85px;
     margin-bottom: 21px;
     font-size: 2em;
+=======
+  .site-branding p{
+    margin-top: 85px;
+    margin-bottom: 21px;
+    font-size: 2rem;
+
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   }
 
   .food-title{
@@ -163,15 +263,24 @@
     margin-top: -450px;
     margin-left: 10%;
     margin-bottom: 112px;
+<<<<<<< HEAD
     width: 500px;
 
     //Google Play Button
     img{
+=======
+
+    width: 500px;
+
+    img{
+      width: 130px;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
       margin-top: 0;
     }
 
   }
 }
+<<<<<<< HEAD
 
 //emoving opacity when camera leaves text area
 @media screen and(min-width: 900px){
@@ -181,3 +290,5 @@
     }
   }
 }
+=======
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c

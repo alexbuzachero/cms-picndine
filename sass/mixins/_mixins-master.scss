@@ -35,11 +35,14 @@
 
 }
 
+<<<<<<< HEAD
 @mixin image-shadow($color) {
 	box-shadow: 1px 5px 5px $color;
 
 }
 
+=======
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 @mixin animation-increase() {
 	transform: scale(1.1);
 	transition: 0.5s;

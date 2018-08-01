@@ -619,7 +619,11 @@ textarea {
   .site-title h1 {
     text-align: center !important;
     color: #44355c !important;
+<<<<<<< HEAD
     font-size: 1.5em !important; }
+=======
+    font-size: 1.5rem !important; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   .site-title a {
     color: white;
     text-decoration: none; }
@@ -651,7 +655,11 @@ textarea {
   #primary-menu a {
     text-decoration: none;
     color: white;
+<<<<<<< HEAD
     font-size: 1.2em; }
+=======
+    font-size: 1.2rem; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   #primary-menu li {
     transition: 0.5s; }
   #primary-menu li:hover {
@@ -702,7 +710,11 @@ textarea {
     padding: 10px;
     text-decoration: none;
     color: white;
+<<<<<<< HEAD
     font-size: 1em;
+=======
+    font-size: 1rem;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
     transition: 0.5s; }
   #menu-social a:visited {
     color: white; }
@@ -725,7 +737,11 @@ textarea {
   color: white;
   text-align: center;
   margin-bottom: -10px;
+<<<<<<< HEAD
   padding-top: 16px; }
+=======
+  padding-top: 25px; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
 header hr {
   display: none; }
@@ -756,7 +772,11 @@ header hr {
     align-self: flex-end;
     justify-content: flex-start; }
     .site-title h1 {
+<<<<<<< HEAD
       font-size: 2em !important; }
+=======
+      font-size: 2rem !important; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
   #site-navigation {
     display: grid;
@@ -920,7 +940,12 @@ article {
 .site-branding p {
   margin-top: -20px;
   margin-bottom: 16px;
+<<<<<<< HEAD
   font-size: 1.5em; }
+=======
+  font-size: 1.5rem;
+  font-weight: bold; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
 .food-background {
   display: block;
@@ -946,14 +971,23 @@ article {
     float: right;
     margin-bottom: 0px;
     max-width: 450px;
+<<<<<<< HEAD
     height: auto; }
+=======
+    height: auto;
+    filter: opacity(80%); }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
 @supports (filter: opacity(70%)) {
   .phone-camera img {
     filter: opacity(70%); } }
 .food-title {
   position: relative;
+<<<<<<< HEAD
   margin-top: -595px;
+=======
+  margin-top: -570px;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 64px;
@@ -967,12 +1001,20 @@ article {
   .food-title h2 {
     margin: 0;
     color: black !important;
+<<<<<<< HEAD
     font-size: 3em;
     text-shadow: 0.5px 0.5px 1px white;
     margin-bottom: 18px; }
   .food-title p {
     margin: 0;
     font-size: 2em;
+=======
+    font-size: 3rem;
+    text-shadow: 0.5px 0.5px 1px white; }
+  .food-title p {
+    margin: 0;
+    font-size: 2rem;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
     color: white;
     text-shadow: 0.5px 0.5px 1px black; }
   .food-title p:nth-of-type(2) {
@@ -1002,12 +1044,23 @@ article {
     opacity: 1; } }
 @media screen and (min-width: 500px) {
   .food-title h2 {
+<<<<<<< HEAD
     font-size: 3em;
     margin-bottom: 20px; }
   .food-title p {
     font-size: 2em;
     color: white;
     text-shadow: 0.5px 0.5px 1px black; } }
+=======
+    font-size: 3rem; }
+  .food-title p {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0.5px 0.5px 1px black; }
+
+  .phone-camera img {
+    filter: opacity(100%); } }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 @media screen and (min-width: 600px) {
   .content-area {
     max-width: 1200px;
@@ -1017,7 +1070,11 @@ article {
   .site-branding p {
     margin-top: 85px;
     margin-bottom: 21px;
+<<<<<<< HEAD
     font-size: 2em; }
+=======
+    font-size: 2rem; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
   .food-title {
     text-align: left;
@@ -1027,9 +1084,12 @@ article {
     width: 500px; }
     .food-title img {
       margin-top: 0; } }
+<<<<<<< HEAD
 @media screen and (min-width: 900px) {
   .phone-camera img {
     filter: opacity(100%); } }
+=======
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 /*--------------------------------------------------------------
 ## Solution Post
 --------------------------------------------------------------*/
@@ -1038,12 +1098,18 @@ article {
 
 .solution-title {
   margin: 0 10px;
+<<<<<<< HEAD
   margin-bottom: 17px;
   padding-top: 0px;
+=======
+  padding-top: 30px;
+  margin-bottom: -10px;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   text-align: center; }
 
 .solution {
   margin-bottom: 30px;
+<<<<<<< HEAD
   width: 100%;
   padding: 0 2%; }
   .solution .solution-container {
@@ -1056,6 +1122,24 @@ article {
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: 1px 5px 5px gray; }
+=======
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .solution .solution-container {
+    padding: 20px;
+    width: 90%;
+    height: 450px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    text-align: center;
+    margin: 20px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px gray; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
     .solution .solution-container img {
       min-width: 80px;
       max-width: 250px; }
@@ -1063,6 +1147,7 @@ article {
     margin-top: 15px;
     max-width: 50px;
     min-width: 30px;
+<<<<<<< HEAD
     margin-left: auto;
     margin-right: auto; }
     .solution .arrow img {
@@ -1110,6 +1195,26 @@ article {
       margin-top: 0;
       padding-top: 0;
       float: none; } } }
+=======
+    flex-shrink: 1;
+    flex-grow: 1; }
+    .solution .arrow img {
+      transform: rotate(90deg); }
+
+@media screen and (min-width: 670px) {
+  .solution {
+    flex-direction: row; }
+
+  .solution-container {
+    max-width: 300px;
+    min-width: 170px;
+    height: 450px; }
+
+  .arrow {
+    margin-top: 0px; }
+    .arrow img {
+      transform: rotate(0deg) !important; } }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1138,13 +1243,18 @@ article {
 .persona {
   position: absolute;
   right: 15%;
+<<<<<<< HEAD
   bottom: 169px;
+=======
+  bottom: 177px;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   left: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: white;
   text-align: center; }
+<<<<<<< HEAD
   .persona h3 {
     margin-bottom: 0;
     padding-top: 6px;
@@ -1154,18 +1264,36 @@ article {
   .persona p {
     margin-bottom: 0;
     text-shadow: 0.5px 0.5px 1px black; }
+=======
+  .persona img {
+    margin-bottom: 5px; }
+  .persona h3 {
+    margin-bottom: 0;
+    text-shadow: 0.5px 0.5px 1px black; }
+  .persona p {
+    margin-bottom: 0; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
 .persona-text {
   position: absolute;
   right: 15%;
+<<<<<<< HEAD
   bottom: 13px;
+=======
+  bottom: 46px;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   left: 15%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
+<<<<<<< HEAD
   color: white;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4); }
+=======
+  color: #fff;
+  text-align: center; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   .persona-text img {
     text-align: center;
     width: 130px;
@@ -1190,7 +1318,13 @@ article {
   width: 100%;
   display: block;
   min-height: 570px;
+<<<<<<< HEAD
   max-height: 650px; }
+=======
+  max-height: 650px;
+  object-fit: cover;
+  filter: opacity(35%); }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
 @supports (object-fit: cover) {
   .d-block {
@@ -1213,7 +1347,11 @@ article {
 
 h5 {
   color: black;
+<<<<<<< HEAD
   font-size: 2em;
+=======
+  font-size: 2rem;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   font-weight: bold;
   text-shadow: 0.5px 0.5px 1px white;
   font-style: italic; }
@@ -1230,10 +1368,17 @@ h5 {
   .persona-text {
     bottom: 100px; }
     .persona-text h5 {
+<<<<<<< HEAD
       font-size: 2.4em; }
     .persona-text p {
       display: block;
       font-size: 1.5em;
+=======
+      font-size: 2.5rem; }
+    .persona-text p {
+      display: block;
+      font-size: 1.5rem;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
       margin-bottom: 0; }
     .persona-text img {
       width: 130px;
@@ -1243,12 +1388,21 @@ h5 {
     bottom: 136px; }
 
   .persona-text {
+<<<<<<< HEAD
     bottom: 125px; }
     .persona-text h5 {
       font-size: 2.7em; }
     .persona-text p {
       display: block;
       font-size: 1.7em;
+=======
+    bottom: 100px; }
+    .persona-text h5 {
+      font-size: 3.5rem; }
+    .persona-text p {
+      display: block;
+      font-size: 2rem;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
       margin-bottom: 0; } }
 /*--------------------------------------------------------------
 ## Team Members
@@ -1257,13 +1411,25 @@ h5 {
   margin-top: 27px; }
 
 .team {
+<<<<<<< HEAD
   min-height: 560px;
   width: 100%; }
+=======
+  min-height: 600px; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
 .team-members {
   margin-top: 45px;
   margin-bottom: 20px;
+<<<<<<< HEAD
   width: 100%; }
+=======
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start; }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
   .team-members .team-members-frame {
     float: left;
     width: 80%;
@@ -1330,6 +1496,43 @@ h5 {
 
 .clearfix:after {
   clear: both; }
+
+/*--------------------------------------------------------------
+## Contact Form
+--------------------------------------------------------------*/
+.archive .contact-wrapper, .category .contact-wrapper {
+  margin-top: 47px; }
+
+.contact-wrapper {
+  padding: 0 15px; }
+  .contact-wrapper h3 {
+    text-align: center; }
+
+/*Contact Form*/
+.wpforms-form {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  border: 1px solid #44355c;
+  padding: 20px; }
+
+.wpforms-confirmation-container-full {
+  text-align: center !important; }
+
+#page .form-title {
+  display: none;
+  text-align: center; }
+
+#post-276 .form-title {
+  display: inline;
+  text-align: center; }
+
+.mission p {
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0; }
 
 /*--------------------------------------------------------------
 ## Contact Form

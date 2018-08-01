@@ -1,9 +1,26 @@
+<<<<<<< HEAD
 //Margin Team Page
+=======
+//Margin Team page
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 .archive, .category{
   .team{
     margin-top: 27px;
   }
 }
+<<<<<<< HEAD
+=======
+
+.team{
+  min-height: 600px;
+}
+.team-members{
+  margin-top: 45px;
+  margin-bottom: 20px;
+  display: flex;
+
+  flex-direction: row;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
 //Team Post Frame
 .team{
@@ -37,6 +54,7 @@
     p{
       margin: 0;
       text-align: center;
+
     }
 
     //Team Member Picture
@@ -45,6 +63,7 @@
       border-radius: 100px;
       @include image-shadow(gray);
     }
+<<<<<<< HEAD
 
   }
 }
@@ -132,4 +151,14 @@
 
 .clearfix:after {
   clear: both;
+=======
+
+  }
+}
+.mission p{
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  margin: 0;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 }

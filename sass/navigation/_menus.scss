@@ -40,9 +40,15 @@
   flex-wrap: wrap;
   margin: 0;
 
+<<<<<<< HEAD
   color: $header-text;
 
   align-content: center;
+=======
+    color: $header-text;
+
+    align-content: center;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 }
 
 //Positioning Logo Title
@@ -51,11 +57,28 @@
   align-self: center;
   justify-content: flex-start;
 
+<<<<<<< HEAD
   h1{
     text-align: center !important;
     color: $post-title !important;
     font-size: 1.5em !important;
   }
+=======
+    h1{
+      text-align: center !important;
+      color: $post-title !important;
+      font-size: 1.5rem !important;
+    }
+
+    a{
+        color: $header-text;
+        text-decoration: none;
+    }
+
+    a:visited{
+        color: $header-text;
+    }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
   a{
     color: $header-text;
@@ -101,6 +124,7 @@
   a{
     text-decoration: none;
     color: $header-text;
+<<<<<<< HEAD
     font-size: 1.2em;
   }
 
@@ -112,6 +136,18 @@
   li:hover{
     @include animation-increase();
   }
+=======
+    font-size: 1.2rem;
+    }
+
+    /*Menu hover scale effect*/
+    li{
+    transition: 0.5s;
+    }
+    li:hover{
+      @include animation-increase();
+    }
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 }
 
 /*End Header Navigation*/
@@ -177,12 +213,17 @@
     font-size: 1em;
 
     transition: 0.5s;
+<<<<<<< HEAD
   }
+=======
+}
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
   a:visited{
     color: $color-icon;
   }
 
+<<<<<<< HEAD
   a:hover{
     @include animation-increase();
 
@@ -191,6 +232,16 @@
     list-style:none;
     padding: 7px;
   }
+=======
+a:hover{
+    @include animation-increase();
+
+}
+li {
+  list-style:none;
+  padding: 7px;
+}
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 }
 
 .site-info{
@@ -203,11 +254,19 @@
 }
 
 .connect{
+<<<<<<< HEAD
   font-size: 1.5em;
   color: $footer-text;
   text-align: center;
   margin-bottom: -10px;
   padding-top: 16px;
+=======
+    font-size: 1.5rem;
+    color: $footer-text;
+    text-align: center;
+    margin-bottom: -10px;
+    padding-top: 25px;
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 }
 
 //Hiding the Header Menu line
@@ -217,8 +276,16 @@ header hr{
 
 @media screen and(min-width: 550px){
 
+<<<<<<< HEAD
   /*Header*/
   .header-background{
+=======
+
+
+@media screen and(min-width: 550px){
+    /*Header*/
+    .header-background{
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
     height: 150px;
   }
 
@@ -248,6 +315,14 @@ header hr{
     margin-top: 0px;
     align-self: flex-end;
     justify-content: flex-start;
+<<<<<<< HEAD
+=======
+
+    h1{
+      font-size: 2rem !important;
+    }
+}
+>>>>>>> 6e9b7fd79877de84b84e14adca06c623422ad94c
 
     h1{
       font-size: 2em !important;
