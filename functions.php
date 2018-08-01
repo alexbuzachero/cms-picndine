@@ -123,7 +123,12 @@ add_action( 'widgets_init', 'picndine_theme_widgets_init' );
  */
 function picndine_theme_scripts() {
 	wp_enqueue_style( 'picndine-theme-style', get_stylesheet_uri() );
-        wp_enqueue_style( 'picndine-theme-style-font-awesome', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' );
+
+	wp_enqueue_style( 'picndine-theme-style-font-awesome', 'https://use.fontawesome.com/releases/v5.1.0/css/all.css' );
+
+	wp_enqueue_style( 'picndine-theme-style-Google-font-Merienda', 'https://fonts.googleapis.com/css?family=Merienda+One' );
+
+	wp_enqueue_style( 'picndine-theme-style-Google-font-Open-Sans', 'https://fonts.googleapis.com/css?family=Open+Sans:400,700' );
 
 	wp_enqueue_script( 'picndine-theme-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
@@ -164,10 +169,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 
 //Remove Category Tag from post page
-add_filter( 'get_the_archive_title', 'replaceCategoryName'); 
+add_filter( 'get_the_archive_title', 'replaceCategoryName');
    function replaceCategoryName ($title) {
 
    $title =  single_cat_title( '', false );
-   return $title; 
+   return $title;
 }
-

@@ -41,8 +41,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	## Captions
 	## Galleries
 --------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css?family=Merienda+One");
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
@@ -417,10 +415,10 @@ big {
 
 .solution-container h3 {
   font-weight: bold;
-  font-weight: .8rem; }
+  font-weight: .8em; }
 .solution-container p {
   font-family: "Merienda One", cursive;
-  font-size: 1.2rem; }
+  font-size: 1.2em; }
 
 .persona-text h5 {
   font-family: "Merienda One", cursive; }
@@ -578,17 +576,6 @@ textarea {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-a {
-  color: royalblue; }
-  a:visited {
-    color: purple; }
-  a:hover, a:focus, a:active {
-    color: midnightblue; }
-  a:focus {
-    outline: thin dotted; }
-  a:hover, a:active {
-    outline: 0; }
-
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -632,7 +619,7 @@ a {
   .site-title h1 {
     text-align: center !important;
     color: #44355c !important;
-    font-size: 1.5rem !important; }
+    font-size: 1.5em !important; }
   .site-title a {
     color: white;
     text-decoration: none; }
@@ -664,7 +651,7 @@ a {
   #primary-menu a {
     text-decoration: none;
     color: white;
-    font-size: 1.2rem; }
+    font-size: 1.2em; }
   #primary-menu li {
     transition: 0.5s; }
   #primary-menu li:hover {
@@ -691,22 +678,22 @@ a {
     content: "\f082";
     font-family: "Font Awesome 5 Brands";
     text-decoration: none;
-    font-size: 2.5rem; }
+    font-size: 2.5em; }
   #menu-social a[href*="twitter"]:before {
     content: "\f081";
     font-family: "Font Awesome 5 Brands";
     text-decoration: none;
-    font-size: 2.5rem; }
+    font-size: 2.5em; }
   #menu-social a[href*="pinterest"]:before {
     content: "\f0d3";
     font-family: "Font Awesome 5 Brands";
     text-decoration: none;
-    font-size: 2.5rem; }
+    font-size: 2.5em; }
   #menu-social a[href*="youtube"]:before {
     content: "\f431";
     font-family: "Font Awesome 5 Brands";
     text-decoration: none;
-    font-size: 2.5rem; }
+    font-size: 2.5em; }
   #menu-social a {
     display: flex;
     flex-direction: column;
@@ -715,7 +702,7 @@ a {
     padding: 10px;
     text-decoration: none;
     color: white;
-    font-size: 1rem;
+    font-size: 1em;
     transition: 0.5s; }
   #menu-social a:visited {
     color: white; }
@@ -734,7 +721,7 @@ a {
     margin: 0; }
 
 .connect {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   color: white;
   text-align: center;
   margin-bottom: -10px;
@@ -769,13 +756,12 @@ header hr {
     align-self: flex-end;
     justify-content: flex-start; }
     .site-title h1 {
-      font-size: 2rem !important; }
+      font-size: 2em !important; }
 
   #site-navigation {
     display: grid;
     grid-column: 2;
     grid-row: 1;
-    /*grid-template-rows: 50px auto;*/
     border-bottom: 2px solid white;
     padding-bottom: 0px;
     max-height: 122px;
@@ -788,8 +774,6 @@ header hr {
     padding-top: -20px; }
 
   #primary-menu {
-    /*display: flex;*/
-    /*grid-row: 2;*/
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -936,8 +920,7 @@ article {
 .site-branding p {
   margin-top: -20px;
   margin-bottom: 16px;
-  font-size: 1.5rem;
-  font-weight: bold; }
+  font-size: 1.5em; }
 
 .food-background {
   display: block;
@@ -984,12 +967,12 @@ article {
   .food-title h2 {
     margin: 0;
     color: black !important;
-    font-size: 3rem;
+    font-size: 3em;
     text-shadow: 0.5px 0.5px 1px white;
     margin-bottom: 18px; }
   .food-title p {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2em;
     color: white;
     text-shadow: 0.5px 0.5px 1px black; }
   .food-title p:nth-of-type(2) {
@@ -1019,10 +1002,10 @@ article {
     opacity: 1; } }
 @media screen and (min-width: 500px) {
   .food-title h2 {
-    font-size: 3rem;
+    font-size: 3em;
     margin-bottom: 20px; }
   .food-title p {
-    font-size: 2rem;
+    font-size: 2em;
     color: white;
     text-shadow: 0.5px 0.5px 1px black; } }
 @media screen and (min-width: 600px) {
@@ -1034,7 +1017,7 @@ article {
   .site-branding p {
     margin-top: 85px;
     margin-bottom: 21px;
-    font-size: 2rem; }
+    font-size: 2em; }
 
   .food-title {
     text-align: left;
@@ -1230,7 +1213,7 @@ article {
 
 h5 {
   color: black;
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: bold;
   text-shadow: 0.5px 0.5px 1px white;
   font-style: italic; }
@@ -1238,7 +1221,7 @@ h5 {
 .carousel-caption p {
   color: white;
   text-shadow: 0.5px 0.5px 1px black;
-  font-size: 1.5rem; }
+  font-size: 1.5em; }
 
 @media screen and (min-width: 768px) {
   .persona {
@@ -1247,10 +1230,10 @@ h5 {
   .persona-text {
     bottom: 100px; }
     .persona-text h5 {
-      font-size: 2.4rem; }
+      font-size: 2.4em; }
     .persona-text p {
       display: block;
-      font-size: 1.5rem;
+      font-size: 1.5em;
       margin-bottom: 0; }
     .persona-text img {
       width: 130px;
@@ -1262,10 +1245,10 @@ h5 {
   .persona-text {
     bottom: 125px; }
     .persona-text h5 {
-      font-size: 2.7rem; }
+      font-size: 2.7em; }
     .persona-text p {
       display: block;
-      font-size: 1.7rem;
+      font-size: 1.7em;
       margin-bottom: 0; } }
 /*--------------------------------------------------------------
 ## Team Members
@@ -1304,7 +1287,7 @@ h5 {
   padding: 20px 20px;
   padding-bottom: 20px;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.4em;
   font-style: italic;
   max-width: 600px; }
 

@@ -1,175 +1,172 @@
 /*Header Navigation*/
-
 .header-background{
-    margin: 0;
-    padding: 0;
-    height: auto;
-
-    background-color: $pink-logo;
-
-
+  margin: 0;
+  padding: 0;
+  height: auto;
+  background-color: $pink-logo;
 }
 
+//Header Menu layout Mobile size
 #masthead{
-    display: grid;
+  display: grid;
 
-    grid-template-rows: 1fr 190px;
-    grid-template-columns:1fr;
-    padding: 0;
+  grid-template-rows: 1fr 190px;
+  grid-template-columns:1fr;
+  padding: 0;
 
-    background-color: $pink-logo;
+  background-color: $pink-logo;
 
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-
-
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .custom-logo-link{
-text-align: center;
+  text-align: center;
 }
 
 .custom-logo{
-    height: 150px;
-    width: 150px;
+  height: 150px;
+  width: 150px;
 }
 
-
+//Positioning the logo text vertically
 .site-branding{
-    display: flex;
+  display: flex;
 
-    grid-row:1;
+  grid-row:1;
 
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0;
 
-    color: $header-text;
+  color: $header-text;
 
-    align-content: center;
+  align-content: center;
 }
 
+//Positioning Logo Title
 .site-title{
-    margin-top: -20px;
-    align-self: center;
-    justify-content: flex-start;
+  margin-top: -20px;
+  align-self: center;
+  justify-content: flex-start;
 
-    h1{
-      text-align: center !important;
-      color: $post-title !important;
-      font-size: 1.5rem !important;
-    }
+  h1{
+    text-align: center !important;
+    color: $post-title !important;
+    font-size: 1.5em !important;
+  }
 
-    a{
-        color: $header-text;
-        text-decoration: none;
-    }
+  a{
+    color: $header-text;
+    text-decoration: none;
+  }
 
-    a:visited{
-        color: $header-text;
-    }
-
-
+  a:visited{
+    color: $header-text;
+  }
 }
 
-
-
+//Positioning Header Menu Mobile Size
 #site-navigation{
+  grid-row: 2;
 
-    grid-row: 2;
+  justify-content: end;
+  align-items:end;
 
-    justify-content: end;
-    align-items:end;
-
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
+//Positioning the Menu Vertically
 #primary-menu{
+  display: flex;
 
-    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 
-    flex-direction: column;
-    flex-wrap: wrap;
-
-    justify-content: center;
-
-    margin: 0;
-    padding: 0;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
+//Stylizing the Menu
 #primary-menu li{
-list-style-type: none;
-margin: 10px;
-text-align: center;
-/*line-height: 150px;*/
+  list-style-type: none;
+  margin: 10px;
+  text-align: center;
+  /*line-height: 150px;*/
 }
 
 #primary-menu{
-    a{
-
+  a{
     text-decoration: none;
     color: $header-text;
-    font-size: 1.2rem;
-    }
+    font-size: 1.2em;
+  }
 
-    /*Menu hover scale effect*/
-    li{
+  /*Menu hover scale effect*/
+  li{
     transition: 0.5s;
-    }
-    li:hover{
-      @include animation-increase();
-    }
+  }
+
+  li:hover{
+    @include animation-increase();
+  }
 }
 
 /*End Header Navigation*/
 
-
-
 /*.social-navigation*/
 #colophon{
-    padding: 0;
-    background-color: $dark-purple;
-    margin-bottom: 0;
-    height: 150px;
+  padding: 0;
+  background-color: $dark-purple;
+  margin-bottom: 0;
+  height: 150px;
 }
 
+//Positioning footer sozil Menu horizontally
 #menu-social{
-    display: flex;
+  display: flex;
 
-    margin-left: -40px;
-    margin-top: -55px;;
+  margin-left: -40px;
+  margin-top: -55px;;
 
-    flex-direction:row;
-    align-items: center;
-    justify-content: center;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
 
-    flex-wrap:wrap;
+  flex-wrap:wrap;
 
-    a[href*="facebook"]:before {
+  //Including Font Awesome Icons in the Social Menu
+  a[href*="facebook"]:before {
     content: "\f082";
     font-family: "Font Awesome 5 Brands";
     text-decoration: none;
-    font-size: 2.5rem;
-}
-    a[href*="twitter"]:before {
+    font-size: 2.5em;
+  }
+
+  a[href*="twitter"]:before {
     content: "\f081";
     font-family: "Font Awesome 5 Brands";
     text-decoration: none;
-    font-size: 2.5rem;
-}
-    a[href*="pinterest"]:before {
+    font-size: 2.5em;
+  }
+
+  a[href*="pinterest"]:before {
     content: "\f0d3";
     font-family: "Font Awesome 5 Brands";
     text-decoration: none;
-    font-size: 2.5rem;
-}
-    a[href*="youtube"]:before {
+    font-size: 2.5em;
+  }
+
+  a[href*="youtube"]:before {
     content: "\f431";
     font-family: "Font Awesome 5 Brands";
     text-decoration: none;
-    font-size: 2.5rem;
-}
- a {
+    font-size: 2.5em;
+  }
+
+  a {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -177,119 +174,114 @@ text-align: center;
     padding: 10px;
     text-decoration: none;
     color: $color-icon;
-    font-size: 1rem;
+    font-size: 1em;
 
     transition: 0.5s;
-}
+  }
 
-a:visited{
+  a:visited{
     color: $color-icon;
-}
+  }
 
-a:hover{
+  a:hover{
     @include animation-increase();
 
-}
-li {
-  list-style:none;
-  padding: 7px;
-}
+  }
+  li {
+    list-style:none;
+    padding: 7px;
+  }
 }
 
 .site-info{
-    margin-top: -33px;
-    color: $footer-text;
-    text-align: center;
-        p{
-          margin: 0;
-        }
+  margin-top: -33px;
+  color: $footer-text;
+  text-align: center;
+  p{
+    margin: 0;
+  }
 }
 
 .connect{
-    font-size: 1.5rem;
-    color: $footer-text;
-    text-align: center;
-    margin-bottom: -10px;
-    padding-top: 16px;
+  font-size: 1.5em;
+  color: $footer-text;
+  text-align: center;
+  margin-bottom: -10px;
+  padding-top: 16px;
 }
 
+//Hiding the Header Menu line
 header hr{
-display: none;
+  display: none;
 }
-
-
-
 
 @media screen and(min-width: 550px){
-    /*Header*/
-    .header-background{
+
+  /*Header*/
+  .header-background{
     height: 150px;
-}
+  }
 
-    #masthead{
-
+  //Changing the Menu layout Horizontally (Desktop size)
+  #masthead{
     grid-template-rows: 1fr;
     grid-template-columns:320px auto;
     max-height: 150px;
-}
-   .site-branding{
+  }
+
+  .site-branding{
     grid-column:1;
-}
-.custom-logo-link{
-text-align: left;
-}
+  }
 
-.site-branding{
+  .custom-logo-link{
+    text-align: left;
+  }
 
+  .site-branding{
     flex-direction: row;
     flex-wrap: wrap;
 
     align-content: end;
-}
+  }
 
-.site-title{
+  .site-title{
     margin-top: 0px;
     align-self: flex-end;
     justify-content: flex-start;
 
     h1{
-      font-size: 2rem !important;
+      font-size: 2em !important;
     }
-}
+  }
 
-#site-navigation{
+  //Positioning the Menu Nav
+  #site-navigation{
     display: grid;
 
     grid-column: 2;
     grid-row: 1;
 
-    /*grid-template-rows: 50px auto;*/
-     border-bottom: 2px solid white;
-     padding-bottom: 0px;
-     max-height: 122px;
+    border-bottom: 2px solid white;
+    padding-bottom: 0px;
+    max-height: 122px;
 
-     margin-top: 0px;
-     padding-right: 10px;
+    margin-top: 0px;
+    padding-right: 10px;
+  }
 
-}
-
-header hr{
+  //Showing line in the Header Menu
+  header hr{
     display: inline;
     margin-bottom: 0;
     padding-top: -20px;
-}
-#primary-menu{
+  }
 
-    /*display: flex;*/
-
-    /*grid-row: 2;*/
-
+  //Positioning the nav horizontally and in the right side
+  #primary-menu{
     flex-direction: row;
     flex-wrap: wrap;
 
     justify-content: flex-end;
     align-items: flex-end;
-
-
-}
+  }
 }
